@@ -1,33 +1,31 @@
 # My First HTML Project
 
 Ushbu loyiha HTML asoslarini o‘rganish jarayonida tayyorlandi.  
-Loyihada HTML ning boshlang‘ich va eng muhim teglari amalda qo‘llanildi.
+Loyihada HTML ning eng muhim va boshlang‘ich teglari amalda qo‘llanildi.
 
 ---
 
-## 📌 Projectda foydalanildi
-
-Quyidagi HTML teglari va atributlari ushbu loyihada ishlatildi:
+## 📌 Projectda foydalanildi va ularning ta’riflari
 
 ---
 
-### 1️⃣ <!DOCTYPE html>
+### 1️⃣ `<!DOCTYPE html>`
 
 **Ta’rifi:**  
 Brauzerga ushbu hujjat HTML5 standartida yozilganini bildiradi.  
-Bu tegsiz yozilsa, brauzer sahifani noto‘g‘ri talqin qilishi mumkin.
+Bu teg har doim HTML faylning eng yuqorisida yoziladi.
 
 ---
 
-### 2️⃣ <html>
+### 2️⃣ `<html>`
 
 **Ta’rifi:**  
-Butun HTML hujjatni o‘z ichiga oluvchi asosiy teg.  
-Barcha elementlar shu teg ichida joylashadi.
+Butun HTML hujjatni o‘z ichiga oluvchi asosiy konteyner teg.  
+Barcha HTML elementlar shu teg ichida joylashadi.
 
 ---
 
-### 3️⃣ <head>
+### 3️⃣ `<head>`
 
 **Ta’rifi:**  
 Sahifa haqidagi texnik ma’lumotlar joylashadigan qism.  
@@ -35,115 +33,116 @@ Foydalanuvchiga ko‘rinmaydi.
 
 ---
 
-### 4️⃣ <title>
+### 4️⃣ `<title>`
 
 **Ta’rifi:**  
-Brauzer oynasi yoki tab qismida ko‘rinadigan sahifa nomini belgilaydi.
+Brauzer oynasi (tab) qismida ko‘rinadigan sahifa nomini belgilaydi.
 
 ---
 
-### 5️⃣ <body>
+### 5️⃣ `<body>`
 
 **Ta’rifi:**  
 Foydalanuvchiga ko‘rinadigan barcha ma’lumotlar joylashadigan qism.
 
 ---
 
-### 6️⃣ <h1> – <h6>
+### 6️⃣ `<h1>` – `<h6>`
 
 **Ta’rifi:**  
 Sahifadagi sarlavhalarni yaratish uchun ishlatiladi.
 
-- `<h1>` – eng katta va asosiy sarlavha  
-- `<h6>` – eng kichik sarlavha  
+- `<h1>` — eng katta va asosiy sarlavha  
+- `<h6>` — eng kichik sarlavha  
 
 ---
 
-### 7️⃣ <p>
+### 7️⃣ `<p>`
 
 **Ta’rifi:**  
 Matnni abzas (paragraph) ko‘rinishida chiqarish uchun ishlatiladi.
 
 ---
 
-### 8️⃣ <b>
+### 8️⃣ `<b>`
 
 **Ta’rifi:**  
 Matnni qalin (bold) ko‘rinishda chiqaradi.
 
 ---
 
-### 9️⃣ <i>
+### 9️⃣ `<i>`
 
 **Ta’rifi:**  
 Matnni qiya (italic) holatda ko‘rsatadi.
 
 ---
 
-### 🔟 <u>
+### 🔟 `<u>`
 
 **Ta’rifi:**  
 Matn ostiga chiziq chizish uchun ishlatiladi.
 
 ---
 
-### 1️⃣1️⃣ <del>
+### 1️⃣1️⃣ `<del>`
 
 **Ta’rifi:**  
 Matn ustidan chiziq chizib, o‘chirilgan holatda ko‘rsatadi.
 
 ---
 
-### 1️⃣2️⃣ <sup>
+### 1️⃣2️⃣ `<sup>`
 
 **Ta’rifi:**  
-Matnni yuqoriga ko‘tarib chiqaradi  
-(misol: daraja, izohlar).
+Matnni yuqoriga ko‘tarib chiqaradi.  
+Darajalar va izohlar uchun ishlatiladi.
 
 ---
 
-### 1️⃣3️⃣ <sub>
+### 1️⃣3️⃣ `<sub>`
 
 **Ta’rifi:**  
-Matnni pastga tushirib chiqaradi  
-(misol: kimyoviy formulalar).
+Matnni pastga tushirib chiqaradi.  
+Kimyoviy formulalar va indekslar uchun ishlatiladi.
 
 ---
 
-### 1️⃣4️⃣ <br>
+### 1️⃣4️⃣ `<br>`
 
 **Ta’rifi:**  
 Matnni yangi qatordan boshlash uchun ishlatiladi.
 
 ---
 
-### 1️⃣5️⃣ <hr>
+### 1️⃣5️⃣ `<hr>`
 
 **Ta’rifi:**  
 Sahifada gorizontal chiziq chizish uchun ishlatiladi.
 
 ---
 
-### 1️⃣6️⃣ <img>
+### 1️⃣6️⃣ `<img>`
 
 **Ta’rifi:**  
 Web sahifaga rasm joylash uchun ishlatiladi.
 
-**Atributlari:**
-- `src` – rasm manzili
-- `alt` – rasm chiqmasa ko‘rinadigan matn
+**Asosiy atributlari:**
+- `src` — rasm manzili  
+- `alt` — rasm chiqmasa ko‘rinadigan matn  
 
 ---
 
-### 1️⃣7️⃣ style (Inline CSS)
+### 1️⃣7️⃣ `style` (Inline CSS)
 
 **Ta’rifi:**  
-HTML elementlarga dizayn berish uchun ishlatiladi.  
-Masalan:
-- `color` – matn rangi
-- `background-color` – fon rangi
-- `width`, `height` – o‘lcham
-- `text-align` – joylashuvi
+HTML elementlarga dizayn berish uchun ishlatiladi.
+
+**Misollar:**
+- `color` — matn rangi  
+- `background-color` — fon rangi  
+- `width`, `height` — o‘lcham  
+- `text-align` — joylashuv  
 
 ---
 
